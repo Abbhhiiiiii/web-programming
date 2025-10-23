@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>For Example</title>
+</head>
+<body>
+  <center><h1>Registration Form</h1></center>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" placeholder="Name" required><br><br>
+
+        <label for="pass">Password:</label><br>
+        <input type="password" id="pass" placeholder="Password" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" placeholder="Email" required><br><br>
+
+        <label for="mob">Mobile:</label><br>
+        <input type="tel" maxlength="10" pattern="\d{10}" id="mob" placeholder="Mobile" required><br><br>
+
+        <label for="add">Address:</label><br>
+        <textarea id="add" placeholder="Enter your Address"></textarea><br><br>
+
+        <label for="dob">DOB:</label><br>
+        <input type="date" id="dob" required><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" checked>
+        <label for="male">Male</label>&nbsp;&nbsp;
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label>&nbsp;&nbsp;
+        <input type="radio" id="other" name="gender">
+        <label for="other">Other</label><br><br>
+
+        <label for="nat">Nationality:</label><br>
+        <select id="nat" name="nat">
+            <option value="indian">Indian</option>
+            <option value="german">German</option>
+            <option value="american">American</option>
+        </select><br><br>
+
+        <fieldset >
+            <legend>Languages Known:</legend>
+            <input type="checkbox" id="eng" name="eng">
+            <label for="eng">English</label><br><br>
+
+            <input type="checkbox" id="mal" name="mal">
+            <label for="mal">Malayalam</label><br><br>
+
+            <input type="checkbox" id="hin" name="hin">
+            <label for="hin">Hindi</label>
+        </fieldset><br>
+
+        <input type="submit" value="Submit">
+        <button id="cancel" type="button">Cancel</button>
+    </form>
+</body>
+</html>
