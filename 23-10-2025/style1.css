@@ -1,0 +1,20 @@
+/* External CSS File */
+
+body {
+    background-color: #D6CEF3; /* Slightly lighter override */
+}
+
+table {
+    border: 2px solid #271BA1;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #EDE5F7;
+    padding: 10px;
+    border-top: 2px solid #99219E;
+}
+
