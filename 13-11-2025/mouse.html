@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Changing image and text</title>
+<style>
+img {
+  width: 400px;     
+  height: 400px;     
+  border: 2px solid black;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+#p1{
+	position:relative;
+	top:950;
+	left:630;
+	font-size:20px;
+}
+</style>
+<script>
+function one()
+{
+document.getElementById("img").src="japan.jpg";
+document.getElementById("p1").innerHTML= "on mouse over";
+document.getElementById("p1").style.color= "#8BB2E8";
+}
+function two()
+{
+document.getElementById("img").src="japan4.jpg";
+document.getElementById("p1").innerHTML= "on mouse out";
+document.getElementById("p1").style.color= "#7B999E";
+}
+</script>
+</head>
+<body>
+<center>
+<img src="japan1.jpg" id = "img" onmouseover="one()" onmouseout="two()">
+<b> <p id = "p1"></p></b>
+</center>
+</body>
+</html>
